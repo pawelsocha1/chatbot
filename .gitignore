@@ -1,0 +1,43 @@
+# ===== Python =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Wirtualne środowisko
+.venv/
+env/
+venv/
+
+# Pliki konfiguracyjne środowiska
+*.env
+*.env.*
+
+# Logi
+*.log
+
+# Konfiguracje IDE
+.vscode/
+.idea/
+
+# ===== Flask uploads =====
+# folder z przesłanymi plikami IFC
+uploads/
+
+# ===== Node / Vite =====
+# dependencies
+node_modules/
+
+# Vite build output
+dist/
+# cache
+/.vite/
+
+# NPM lockfiles (opcjonalnie, jeśli nie chcesz je wrzucać)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===== System =====
+.DS_Store
+Thumbs.db
